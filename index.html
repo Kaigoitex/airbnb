@@ -1,68 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Airbnb & Guest House Owners | Fill Your Downtime with Business Travelers</title>
-<script src="https://cdn.tailwindcss.com"></script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Airbnb & Guest House Owners | Fill Your Downtime with Business Travelers</title>
+  <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body class="bg-gradient-to-r from-purple-500 via-pink-500 to-orange-400 text-white font-sans">
 
+  <!-- Header -->
+  <header class="text-center py-16">
+    <h1 class="text-5xl font-extrabold mb-4">Turn Empty Nights into Income</h1>
+    <p class="text-xl max-w-2xl mx-auto">
+      Partner with our network of traveling business owners to fill your Airbnb or Guest House during off-season and weekdays — through trade, not discounts.
+    </p>
+  </header>
 
-<!-- Header -->
-<header class="text-center py-16">
-<h1 class="text-5xl font-extrabold mb-4">Turn Empty Nights into Income</h1>
-<p class="text-xl max-w-2xl mx-auto">Partner with our network of traveling business owners to fill your Airbnb or Guest House during off-season and weekdays — through trade, not discounts.</p>
-</header>
+  <!-- Video Section -->
+  <section class="max-w-4xl mx-auto my-12 px-4">
+    <div class="rounded-2xl overflow-hidden shadow-2xl">
+      <iframe
+        class="w-full h-96"
+        src="https://www.youtube.com/embed/TD3GFefzi2k"
+        frameborder="0"
+        allowfullscreen
+      ></iframe>
+    </div>
+  </section>
 
+  <!-- Value Proposition -->
+  <section class="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto px-6 py-12">
+    <div class="bg-white text-gray-900 rounded-2xl p-6 shadow-lg">
+      <h3 class="text-2xl font-bold mb-2">Fill Off-Season Gaps</h3>
+      <p>Stop losing money on weekdays and slower months. We bring you vetted business travelers who need consistent stays.</p>
+    </div>
+    <div class="bg-white text-gray-900 rounded-2xl p-6 shadow-lg">
+      <h3 class="text-2xl font-bold mb-2">Trusted Business Owners</h3>
+      <p>Our network is made up of entrepreneurs, executives, and professionals who respect your space and return often.</p>
+    </div>
+    <div class="bg-white text-gray-900 rounded-2xl p-6 shadow-lg">
+      <h3 class="text-2xl font-bold mb-2">Trade Instead of Discount</h3>
+      <p>Instead of lowering your nightly rate, leverage barter trade for services and goods you already need — preserving value.</p>
+    </div>
+  </section>
 
-<!-- Video Section -->
-<section class="max-w-4xl mx-auto my-12 px-4">
-<div class="rounded-2xl overflow-hidden shadow-2xl">
-<!-- Replace VIDEO_URL with actual Airbnb video link -->
-<iframe class="w-full h-96" src="VIDEO_URL" frameborder="0" allowfullscreen></iframe>
-</div>
-</section>
+  <!-- Call to Action -->
+  <section class="text-center py-16 bg-gradient-to-r from-orange-500 to-pink-500">
+    <h2 class="text-4xl font-extrabold mb-4">Ready to Fill Your Guest House?</h2>
+    <p class="text-lg mb-8">Connect with our network today and never leave your rooms empty again.</p>
+    <a href="#contact" class="bg-white text-pink-600 px-8 py-4 rounded-full font-bold shadow-lg hover:bg-gray-100 transition">Get Started</a>
+  </section>
 
+  <!-- Contact Section -->
+  <section id="contact" class="py-16 max-w-4xl mx-auto px-6">
+    <h3 class="text-3xl font-bold text-center mb-6">Let’s Talk</h3>
+    <form class="bg-white text-gray-900 rounded-2xl shadow-lg p-8 space-y-6">
+      <input type="text" placeholder="Your Name" class="w-full p-3 rounded-xl border" required>
+      <input type="email" placeholder="Your Email" class="w-full p-3 rounded-xl border" required>
+      <input type="text" placeholder="Your Property Name" class="w-full p-3 rounded-xl border" required>
+      <textarea placeholder="Message" class="w-full p-3 rounded-xl border h-32" required></textarea>
+      <button type="submit" class="w-full bg-pink-600 text-white p-4 rounded-xl font-bold hover:bg-pink-700 transition">Submit</button>
+    </form>
+  </section>
 
-<!-- Value Proposition -->
-<section class="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto px-6 py-12">
-<div class="bg-white text-gray-900 rounded-2xl p-6 shadow-lg">
-<h3 class="text-2xl font-bold mb-2">Fill Off-Season Gaps</h3>
-<p>Stop losing money on weekdays and slower months. We bring you vetted business travelers who need consistent stays.</p>
-</div>
-<div class="bg-white text-gray-900 rounded-2xl p-6 shadow-lg">
-<h3 class="text-2xl font-bold mb-2">Trusted Business Owners</h3>
-<p>Our network is made up of entrepreneurs, executives, and professionals who respect your space and return often.</p>
-</div>
-<div class="bg-white text-gray-900 rounded-2xl p-6 shadow-lg">
-<h3 class="text-2xl font-bold mb-2">Trade Instead of Discount</h3>
-<p>Instead of lowering your nightly rate, leverage barter trade for services and goods you already need — preserving value.</p>
-</div>
-</section>
+  <!-- Footer -->
+  <footer class="text-center py-6 bg-gray-900 text-gray-400">
+    <p>&copy; 2025 Airbnb & Guest House Trade Network. All rights reserved.</p>
+  </footer>
 
-
-<!-- Call to Action -->
-<section class="text-center py-16 bg-gradient-to-r from-orange-500 to-pink-500">
-<h2 class="text-4xl font-extrabold mb-4">Ready to Fill Your Guest House?</h2>
-<p class="text-lg mb-8">Connect with our network today and never leave your rooms empty again.</p>
-<a href="#contact" class="bg-white text-pink-600 px-8 py-4 rounded-full font-bold shadow-lg hover:bg-gray-100 transition">Get Started</a>
-</section>
-
-
-<!-- Contact Section -->
-<section id="contact" class="py-16 max-w-4xl mx-auto px-6">
-<h3 class="text-3xl font-bold text-center mb-6">Let’s Talk</h3>
-<form class="bg-white text-gray-900 rounded-2xl shadow-lg p-8 space-y-6">
-<input type="text" placeholder="Your Name" class="w-full p-3 rounded-xl border" required>
-<input type="email" placeholder="Your Email" class="w-full p-3 rounded-xl border" required>
-<input type="text" placeholder="Your Property Name" class="w-full p-3 rounded-xl border" required>
-<textarea placeholder="Message" class="w-full p-3 rounded-xl border h-32" required></textarea>
-<button type="submit" class="w-full bg-pink-600 text-white p-4 rounded-xl font-bold hover:bg-pink-700 transition">Submit</button>
-</form>
-</section>
-
-
-<!-- Footer -->
-<footer class="text-center py-6 bg-gray-900 text-gray-400">
-<p>&copy; 2025 Airbnb & Guest House Trade Network. All rights reserved.</p>
+</body>
+</html>
